@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import '_variables';
+
+body {
+  background: $darkBlue;
+}
+
+/**************** 
+ LOGIN            
+*****************/
+.login-form {
+  background-color: $darkBlue;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/**************** 
+ NAVBAR               
+*****************/
+
+nav {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+  span {
+    font-size: 3rem;
+    margin: 1.5rem;
+  }
+}
+
+.logout-button {
+  padding: 0.5rem;
+  margin-right: 1.5rem;
+}
+
+.nav-categories {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  li {
+    font-size: 1.2rem;
+    margin: 1.5rem;
+  }
+}
+
+/**************** 
+ FOOD ITEM     
+*****************/
+
+.search-container {
+  background-color: pink;
+  margin: 3rem auto;
+  height: 50px;
+  width: 80%;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-container-left {
+  display: flex;
+  align-items: center;
+  width: 40%;
+
+  .searchbar {
+    text-indent: 5px;
+    height: 60%;
+    margin: auto 1rem;
+    margin-right: 0;
+    width: 100%;
+  }
+  
+  .search-button {
+    height: 60%;
+    width: 2.5em;
+    margin-left: 0;
+  }
+
+  .searchBy {
+    margin: 1rem;
+    margin-right: -15px;
+    width: 40%;
+  }
+  
+  .searchBy-dropdown {
+    height: 60%;
+    width: 75px;
+    // margin-left: 0;
+  }
+
+}
+
+.search-container-right {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+
+  .add-new {
+    margin-right: 3px;
+  }
+  .add-button {
+    height: 60%;
+    width: 1.3rem;
+  }
+}
+
+.display-items {
+  background-color: green;
+  height: 100px;
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr repeat(3, 1fr) 0.35fr;
+  // text-align: center;
+
+  .display-items-category {
+    background-color: gray;
+    border: 1px solid black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 2fr repeat(3, 1fr) 0.35fr;
+    grid-template-rows: auto 1fr;
+  }
+
+  // .grid-alignment {
+  //   // grid-template-columns: 2fr repeat(3, 1fr) 0.35fr;
+  // }
+  
+  .item--FoodItem {
+    background-color: yellow;
+    height: 100%;
+    grid-template-columns: 1fr;
+
+    .FoodItem-Name-Description {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    
+      .name-description-container {
+        height: 100%;
+        width: 100%;
+        background-color: greenyellow;
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .update-delete-container {
+        // height: 100%;
+        // width: 100%;
+        background-color: darkgreen;
+        display: flex;
+      }
+    }
+  }
+}
+
+.show-results {
+  width: 90%;
+  height: 1000px;
+  background-color: azure;
+  margin: auto;
+}
+
+
