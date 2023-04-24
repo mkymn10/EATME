@@ -4,7 +4,7 @@ Personal Food Manager Application
 
 ### Background and Motivation:
 
-With limited kitchen space to store all of your groceries, it becomes very easy to forget about certain food items, especially if they are placed in the very back of a storage area (for example, a refrigerator or pantry) and not always in plain sight.
+With limited kitchen space to store all of your groceries, it becomes very easy to forget about certain food items, especially if they are placed in the very back of a storage area (for example, a refrigerator or pantry) and not in plain sight.
 
 EATME is designed to help you manage your groceries so that all of your food items are consumed before expiration.
 
