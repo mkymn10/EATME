@@ -1,6 +1,6 @@
 # EATME
 Personal Food Manager Application
-_Currently REST API only, UI/UX still in progress_
+(_Currently REST API only, UI/UX still in progress_)
 
 ### Background and Motivation:
 
@@ -16,7 +16,7 @@ EATME is designed to help you manage your groceries so that all of your food ite
 
 ### Future iterations recommendations:
 
-- Develop UI/UX further to implement authentication/ authorization and CRUD functionalities in the API
+- Develop UI/UX further to utilize authentication/ authorization and CRUD functionalities in the API
 - Send reminders to user's account email when a food item is close to expiration (or update user schema to include phone numbers, and send text messages as reminders instead)
 - Integration of third party APIs to suggest nearby supermarkets that carry specific food items in the user's shopping list or generate recipes that include ingredients based on the user's remaining food items
 
