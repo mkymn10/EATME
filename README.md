@@ -1,4 +1,4 @@
-# EATME
+# EatMe
 Personal Food Manager Application
 (_Currently REST API only, UI/UX still in progress_)
 
